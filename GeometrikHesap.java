@@ -4,34 +4,33 @@ Ad Soyad:Sami Yusuf Yıldız
 Tarih:25/10/2025
 Açıklama:Geometrik Hesap Java
                              /
-  import java.util.Scanner;
+ import java.util.Scanner;
 
-public class StudentInfoScanner {
+public class DaireKureHesaplamaScanner {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Adınızı girin: ");
-        String ad = input.nextLine();
+        System.out.print("Yarıçapı girin: ");
+        double r = input.nextDouble();
+        double pi = Math.PI;
 
-        System.out.print("Soyadınızı girin: ");
-        String soyad = input.nextLine();
+        // Daire hesaplamaları
+        double daireAlani = pi * r * r;
+        double daireCevresi = 2 * pi * r;
 
-        System.out.print("Öğrenci numaranızı girin: ");
-        String ogrenciNo = input.nextLine();
+        // Küre hesaplamaları
+        double kureAlani = 4 * pi * r * r;
+        double kureHacmi = (4.0 / 3.0) * pi * r * r * r;
 
-        System.out.print("Yaşınızı girin: ");
-        int yas = input.nextInt();
+        System.out.println("\n----- Daire Hesaplamaları -----");
+        System.out.println("Yarıçap: " + r);
+        System.out.printf("Daire Alanı: %.2f%n", daireAlani);
+        System.out.printf("Daire Çevresi: %.2f%n", daireCevresi);
 
-        System.out.print("Not ortalamanızı girin: ");
-        double notOrtalamasi = input.nextDouble();
-
-        System.out.println("\n----- Öğrenci Bilgileri -----");
-        System.out.println("Ad: " + ad);
-        System.out.println("Soyad: " + soyad);
-        System.out.println("Öğrenci Numarası: " + ogrenciNo);
-        System.out.println("Yaş: " + yas);
-        System.out.println("Not Ortalaması: " + notOrtalamasi);
+        System.out.println("\n----- Küre Hesaplamaları -----");
+        System.out.printf("Küre Alanı: %.2f%n", kureAlani);
+        System.out.printf("Küre Hacmi: %.2f%n", kureHacmi);
 
         input.close();
     }
-}
+  } 
