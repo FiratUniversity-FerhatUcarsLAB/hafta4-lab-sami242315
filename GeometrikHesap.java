@@ -6,31 +6,31 @@ Açıklama:Geometrik Hesap Java
                              /
  import java.util.Scanner;
 
-public class DaireKureHesaplamaScanner {
+public class GeometriHesaplama {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Yarıçapı girin: ");
+        // Kullanıcıdan yarıçap al
+        System.out.print("Yarıçapı giriniz: ");
         double r = input.nextDouble();
-        double pi = Math.PI;
 
         // Daire hesaplamaları
-        double daireAlani = pi * r * r;
-        double daireCevresi = 2 * pi * r;
+        double cap = 2 * r;
+        double daireAlani = Math.PI * r * r;
+        double daireCevresi = 2 * Math.PI * r;
 
         // Küre hesaplamaları
-        double kureAlani = 4 * pi * r * r;
-        double kureHacmi = (4.0 / 3.0) * pi * r * r * r;
+        double kureAlani = 4 * Math.PI * r * r;
+        double kureHacmi = (4.0 / 3.0) * Math.PI * Math.pow(r, 3);
 
-        System.out.println("\n----- Daire Hesaplamaları -----");
-        System.out.println("Yarıçap: " + r);
-        System.out.printf("Daire Alanı: %.2f%n", daireAlani);
-        System.out.printf("Daire Çevresi: %.2f%n", daireCevresi);
-
-        System.out.println("\n----- Küre Hesaplamaları -----");
-        System.out.printf("Küre Alanı: %.2f%n", kureAlani);
-        System.out.printf("Küre Hacmi: %.2f%n", kureHacmi);
+        // Sonuçları yazdır
+        System.out.println("\n--- Hesap Sonuçları ---");
+        System.out.println("Dairenin Çapı       : " + cap);
+        System.out.println("Dairenin Alanı      : " + daireAlani);
+        System.out.println("Dairenin Çevresi    : " + daireCevresi);
+        System.out.println("Kürenin Alanı       : " + kureAlani);
+        System.out.println("Kürenin Hacmi       : " + kureHacmi);
 
         input.close();
     }
-  } 
+}
