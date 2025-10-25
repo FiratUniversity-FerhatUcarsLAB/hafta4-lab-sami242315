@@ -51,7 +51,7 @@ public class OgrenciBilgi {
 Öğrencinin yaşı: 18
 Öğrencinin GPA (not ortalaması): 3.5
   ==================================
-         ÖĞRENCİ BİLGİ FORMU
+         ÖĞRENCİ BİLGİ SİSTEMİ 
 ==================================
 İsim Soyisim     : Sami Yusuf Yıldız
 Öğrenci No    : 250541081
