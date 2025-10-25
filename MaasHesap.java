@@ -1,5 +1,5 @@
 /
- Ad Soyad:Sami Yusuf Yıldız
+  Ad Soyad:Sami Yusuf Yıldız
  Öğrenci No:250541081
  Tarih:25/10/2025
  Açıklama:Maaş Hesaplaması Java
