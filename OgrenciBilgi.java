@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [Sami Yusuf Yıldız]
+ * Ogrenci No: [250541081]
+ * Tarih: [25.10.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -45,7 +45,14 @@ public class OgrenciBilgi {
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
         
         // COZUMUNUZU BURAYA YAZIN
-        
+          ----- Öğrenci Bilgileri -----
+Ad: Sami Yusuf
+Soyad: Yıldız
+Öğrenci Numarası: 250541081
+Yaş: 18
+Not Ortalaması: 4.0
+
+Öğrenci: Sami Yusuf Yıldız (No: 250541081) - Yaş: 18 - Not Ortalaması: 4.0  
         
         
         
