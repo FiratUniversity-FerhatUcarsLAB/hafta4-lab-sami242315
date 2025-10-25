@@ -50,12 +50,18 @@ public class MaasHesaplamaScanner {
         input.close();
     }
 }
---- Maaş Hesaplama Özeti ---
-Ad Soyad            : Sami Yusuf Yıldız
-Brüt Maaş           : 30000.0 TL
-Haftalık Çalışma    : 35.0 saat
-SGK Kesintisi       : 4200.0 TL
-Gelir Vergisi       : 4500.0 TL
-Damga Vergisi       : 227.7 TL
-Toplam Kesinti      : 8927.7 TL
-Net Maaş            : 21072.3 TL
+===========================================
+              MAAŞ BORDROSU
+===========================================
+Çalışan         : Sami Yusuf Yıldız
+Haftalık Çalışma Saati : 35.0 saat
+-------------------------------------------
+Brüt Maaş            : 30,000.00 TL
+-------------------------------------------
+SGK Kesintisi (%14)     : 4,200.00 TL
+Gelir Vergisi (%15)     : 4,500.00 TL
+Damga Vergisi (%0.759)  : 227.70 TL
+-------------------------------------------
+Toplam Kesinti       : 8,927.70 TL
+Net Maaş             : 21,072.30 TL
+===========================================
