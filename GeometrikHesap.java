@@ -1,8 +1,8 @@
 /
-Ad Soyad:Sami Yusuf Yıldız
-Öğrenci No:250541081
-Tarih:25/10/2025
-Açıklama:Geometrik Hesap Java
+Ad Soyad:[Sami Yusuf Yıldız]
+Öğrenci No:[250541081]
+Tarih:[25/10/2025]
+Açıklama:[Geometrik Hesap Java]
                              /
  import java.util.Scanner;
 
