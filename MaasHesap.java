@@ -1,4 +1,9 @@
-
+/*
+ * Ad Soyad: [Sami Yusuf Yıldız]
+ * Ogrenci No: [250541081]
+ * Tarih: [25.10.2025]
+ * Aciklama: Gorev 3- Maaş Hesaplama
+ */
    import java.util.Scanner;
 
 public class MaasHesaplamaScanner {
