@@ -2,7 +2,7 @@
  * Ad Soyad: [Sami Yusuf Yıldız]
  * Ogrenci No: [250541081]
  * Tarih: [25.10.2025]
- * Aciklama: Gorev 3- Maaş Hesaplama
+ * Aciklama: [Gorev 3- Maaş Hesaplama]
  */
    import java.util.Scanner;
 
@@ -50,3 +50,12 @@ public class MaasHesaplamaScanner {
         input.close();
     }
 }
+--- Maaş Hesaplama Özeti ---
+Ad Soyad            : Sami Yusuf Yıldız
+Brüt Maaş           : 30000.0 TL
+Haftalık Çalışma    : 35.0 saat
+SGK Kesintisi       : 4200.0 TL
+Gelir Vergisi       : 4500.0 TL
+Damga Vergisi       : 227.7 TL
+Toplam Kesinti      : 8927.7 TL
+Net Maaş            : 21072.3 TL
