@@ -34,3 +34,11 @@ public class GeometriHesaplama {
         input.close();
     }
 }
+Yarıçapı giriniz: 3
+
+--- Hesap Sonuçları ---
+Dairenin Çapı       : 6.0
+Dairenin Alanı      : 28.274333882308138
+Dairenin Çevresi    : 18.84955592153876
+Kürenin Alanı       : 113.09733552923255
+Kürenin Hacmi       : 113.09733552923254
