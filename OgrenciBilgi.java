@@ -2,7 +2,7 @@
  * Ad Soyad: [Sami Yusuf Yıldız]
  * Ogrenci No: [250541081]
  * Tarih: [25.10.2025]
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * Aciklama: [Gorev 1 - Ogrenci Bilgi Sistemi]
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
  * duzenli bir formatta ekrana yazdirir.
@@ -45,15 +45,20 @@ public class OgrenciBilgi {
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
         
         // COZUMUNUZU BURAYA YAZIN
-          ----- Öğrenci Bilgileri -----
-Ad: Sami Yusuf
-Soyad: Yıldız
-Öğrenci Numarası: 250541081
-Yaş: 18
-Not Ortalaması: 4.0
-
-Öğrenci: Sami Yusuf Yıldız (No: 250541081) - Yaş: 18 - Not Ortalaması: 4.0  
-        
+          Öğrenci isim: Sami Yusuf
+Öğrenci soyisim: Yıldız
+Öğrenci numarası: 250541081
+Öğrencinin yaşı: 18
+Öğrencinin GPA (not ortalaması): 3.5
+  ==================================
+         ÖĞRENCİ BİLGİ FORMU
+==================================
+İsim Soyisim     : Sami Yusuf Yıldız
+Öğrenci No    : 250541081
+Yaş           : 18
+GPA           : 3.5
+Durum         : Başarılı
+==================================      
         
         
         
